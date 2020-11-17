@@ -57,6 +57,7 @@ html {
 }
 .contact-header-item{
 	margin-right: 50px;
+	
 }
 
 .logo {
@@ -225,9 +226,11 @@ html {
 	display: flex;
 	justify-content: center;
 }
-.social-icons-link :hover {
+.social-icons-link:hover,
+.social-icons-link:focus {
 	background: var(--maincolor);
-	border-radius: 50px;
+	border-radius: 50%;
+	fill:white;
 }
 .social-icons {
 	display: flex;
@@ -241,7 +244,12 @@ html {
     height: 44px;
     border-radius: 50%;
 }
-
+.header-icon-mail {
+	width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #757575
+    }
 .social-icons-svg {
 	width: 20px;
     height: 20px;
