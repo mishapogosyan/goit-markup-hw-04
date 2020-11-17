@@ -255,8 +255,7 @@ html {
     height: 20px;
     fill: #afb1b8;
 }
-.social-icons-svg:hover,
-.ssocial-icons-link:hover {
+.ssocial-icons-link:hover .social-icons-svg {
 	fill:white;
 }
 .social-icon-items {
