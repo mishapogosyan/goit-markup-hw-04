@@ -226,7 +226,28 @@ html {
 	justify-content: center;
 }
 
+.social-icons {
+	display: flex;
+    justify-content: center;
+}
+.social-icons-link {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: red;
+}
 
+.cial-icons-svg {
+	width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+}
+.social-icon-items {
+	margin-right: 10px;
+}
 .services {
 	padding-bottom: 95px;
 }
