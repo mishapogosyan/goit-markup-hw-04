@@ -225,7 +225,10 @@ html {
 	display: flex;
 	justify-content: center;
 }
-
+.social-icons-link :hover {
+	background: var(--maincolor);
+	border-radius: 50px;
+}
 .social-icons {
 	display: flex;
     justify-content: center;
@@ -306,7 +309,7 @@ html {
 	font-weight: 500;
 }
 .team-description {
-	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 .team-description,
 .portfolio-description {
