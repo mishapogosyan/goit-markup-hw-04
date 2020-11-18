@@ -14,8 +14,8 @@
 			<nav class="mainnav">
 				<a class="logo" href="index.html"><span class="logo-web">Web</span>Studio</a>
 				<ul class="menu">
-					<li class="menu-list"><a class="menu-item current" href="#">Студия</a></li>
-					<li class="menu-list"><a class="menu-item" href="portfolio.html">Портфолио</a></li>
+					<li class="menu-list"><a class="menu-item " href="index.html">Студия</a></li>
+					<li class="menu-list"><a class="menu-item current" href="portfolio.html">Портфолио</a></li>
 					<li class="menu-list"><a class="menu-item" href="#">Контакты</a></li>
 				</ul>
 			</nav>
@@ -50,7 +50,7 @@
 				</ul>
 				<ul class="portfolio-items">
 					<li class="portfolio-card">
-						<a href="#">
+						<a class="portfolio-link" href="#">
 							<img  class="portfolio-photo" src="./img/portfolio/techno.jpg" width="370" height="294" alt="Технокряк">
 							<div class="portfolio-head">
 								<h3 class="portfolio-name">Технокряк</h3>
@@ -134,16 +134,51 @@
 			</div>
 		</section>
 	</main>
-		<footer class="footer">
+<footer class="footer">
 			<div class="container">
-				<a class="logo-footer" href="#"><span class="logo-web">Web</span>Studio</a>
-				<address>
-					<p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-					<ul class="contact-footer">
-						<li class="contact-footer-item"><a href="mailto:info@example.com">info@example.com</a></li>
-						<li class="contact-footer-item"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-					</ul>
-				</address>
+				<div class="footer-contacts">
+					<a class="logo-footer" href="#"><span class="logo-web">Web</span>Studio</a>
+					<address>
+						<p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+						<ul class="contact-footer">
+							<li><a href="mailto:info@example.com">info@example.com</a></li>
+							<li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+						</ul>
+					</address>
+				</div>
+				<div class="social-footer">
+					<h3 class="heading-footer">Присоединяйтесь</h3>
+					<ul class="social-icons">
+								<li class="social-icon-items">
+									<a class="social-icons-link footer-social" href="https://instagram.com/" target="_blank" rel="noopener noreferer" aria-label="Instagram">
+										<svg class="social-icons-svg">
+											<use href="./img/svg/sprite.svg#instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-icon-items">
+									<a class="social-icons-link footer-social" href="https://twitter.com/" target="_blank" rel="noopener noreferer" aria-label="Twitter">
+										<svg class="social-icons-svg">
+											<use href="./img/svg/sprite.svg#twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-icon-items">
+									<a class="social-icons-link footer-social" href="https://facebook.com/" target="_blank" rel="noopener noreferer" aria-label="Facebook">
+										<svg class="social-icons-svg">
+											<use href="./img/svg/sprite.svg#facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-icon-items">
+									<a class="social-icons-link footer-social" href="https://linkedin.com/" target="_blank" rel="noopener noreferer" aria-label="Linkedin">
+										<svg class="social-icons-svg">
+											<use href="./img/svg/sprite.svg#linkedin"></use>
+										</svg>
+									</a>
+								</li>															
+							</ul>
+				</div>
 			</div>
 		</footer>
 </body>

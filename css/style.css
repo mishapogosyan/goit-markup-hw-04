@@ -501,6 +501,10 @@ html {
 	text-decoration: none;
 }
 
+.portfolio-card:hover {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-name:hover,
 .portfolio-description:hover {
 	color:var(--maincolor);
@@ -522,4 +526,31 @@ html {
 }
 .contact-footer-item, .adress {
 	margin-bottom: 10px;
+}
+
+.footer .container {
+	display: flex;
+}
+
+.footer-social {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.social-footer .social-icons-svg{
+	fill:white;
+	
+}
+
+.heading-footer {
+	font-family: var(--mainfont);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color:white;
+	margin-top: 12px;
+    margin-bottom: 20px;
+}
+.social-footer {
+	margin-left: 70px;
 }
