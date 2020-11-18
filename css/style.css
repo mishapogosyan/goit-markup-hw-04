@@ -22,7 +22,10 @@ img {
 html {
   box-sizing: border-box;
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .container {
 	width: 1170px;
 	padding-right: 15px;
@@ -108,7 +111,6 @@ html {
 
 .menu-item:hover,
 .menu-item:active,
-.contact-header a:hover,
 .contact-footer a:hover,
 .menu-item:focus,
 .contact-header a:focus,
@@ -249,10 +251,33 @@ html {
     margin-right: 10px;
     fill: #757575
     }
+
+ .header-icon-phone {
+ 	width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: #757575
+ }
+
+.header-contact:hover {
+	color:var(--maincolor);
+}
+
+.header-contact:hover .header-icon-mail{
+	fill:var(--maincolor);
+}
+
+.header-contact:hover .header-icon-phone{
+	fill:var(--maincolor);
+}
 .social-icons-svg {
 	width: 20px;
     height: 20px;
     fill: #afb1b8;
+}
+.header-contact {
+	display: flex;
+	align-items: center;
 }
 .social-icons-link:hover .social-icons-svg {
 	fill:white;
@@ -267,7 +292,8 @@ html {
 	margin-right: 30px;
 }
 .service-heading,
-.team-heading {
+.team-heading,
+.client-heading {
 	font-family: var(--mainfont);
 	font-weight: 700;
 	font-size: 36px;
@@ -350,14 +376,74 @@ html {
 .portfolio-card:nth-child(3n) {
   margin-right: 0;
 }
-
-
 	
 .portfolio-head {
 	border: 1px solid #eeeeee;
 	padding: 20px 24px;
 
 }
+.client-list {
+	display: flex;
+	justify-content: center;
+}
+.client-icons-svg1 {
+	width: 44px;
+	height: 49px;
+}
+.client-icons-svg2 {
+	width: 40px;
+	height: 52px;
+}
+.client-icons-svg3 {
+	width: 41px;
+	height: 42px;
+}
+.client-icons-svg4 {
+	width: 79px;
+	height: 42px;
+}
+.client-icons-svg5 {
+	width: 59px;
+	height: 47px;
+}
+.client-icons-svg6 {
+	width: 88px;
+	height: 45px;
+}
+.client-icons-svg, 
+.client-icons-svg1,
+.client-icons-svg2,
+.client-icons-svg3,
+.client-icons-svg4,
+.client-icons-svg5,
+.client-icons-svg6 {
+	fill:#afb1b8;
+}
+.client-list-item {
+	list-style:none;
+}
+.client-list-item:not(:last-child){
+	margin-right: 30px;
+}
+.client-logo-link {
+	border: 1px solid #afb1b8;
+    border-radius: 4px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+
+}
+
+.client-logo-link:hover {
+	border-color:var(--maincolor);
+}
+
+.client-logo-link:hover .client-icons-svg {
+	fill:var(--maincolor);
+}
+
 .logo-footer {
 	color: #fff;
 	font-size: 26px;
@@ -427,6 +513,8 @@ html {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.172;
+	padding:2px;
+	border-bottom: 3px solid var(--maincolor);
 }
 
 .footer {
