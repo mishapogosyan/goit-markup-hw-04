@@ -230,7 +230,6 @@ html {
 .social-icons-link:focus {
 	background: var(--maincolor);
 	border-radius: 50%;
-	fill:white;
 }
 .social-icons {
 	display: flex;
@@ -255,7 +254,7 @@ html {
     height: 20px;
     fill: #afb1b8;
 }
-.ssocial-icons-link:hover .social-icons-svg {
+.social-icons-link:hover .social-icons-svg {
 	fill:white;
 }
 .social-icon-items {
