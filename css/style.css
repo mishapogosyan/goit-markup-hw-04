@@ -512,20 +512,15 @@ html {
 	text-decoration: none;
 }
 
-.portfolio-card:hover,
-.portfolio-card .portfolio-link:focus {
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.portfolio-card .portfolio-link:focus {
+.portfolio-card:hover{
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
-/*.portfolio-name:hover,
-.portfolio-description:hover {
-	color:var(--maincolor);
-}*/
+.portfolio-link:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	
+}
 
 .current {
 	color:var(--maincolor);
