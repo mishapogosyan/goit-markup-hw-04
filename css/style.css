@@ -263,11 +263,13 @@ html {
 	color:var(--maincolor);
 }
 
-.header-contact:hover .header-icon-mail{
+.header-contact:hover .header-icon-mail,
+.header-contact:focus .header-icon-mail{
 	fill:var(--maincolor);
 }
 
-.header-contact:hover .header-icon-phone{
+.header-contact:hover .header-icon-phone,
+.header-contact:focus .header-icon-phone{
 	fill:var(--maincolor);
 }
 .social-icons-svg {
@@ -279,10 +281,12 @@ html {
 	display: flex;
 	align-items: center;
 }
-.social-icons-link:hover .social-icons-svg {
+.social-icons-link:hover .social-icons-svg,
+.social-icons-link:focus .social-icons-svg
+ {
 	fill:white;
 }
-.social-icon-items {
+.social-icon-items:not(:last-child){
 	margin-right: 10px;
 }
 .services {
@@ -367,6 +371,7 @@ html {
 .portfolio-items {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: -30px;
 }
 
 .portfolio-card {
@@ -436,11 +441,13 @@ html {
 
 }
 
-.client-logo-link:hover {
+.client-logo-link:hover,
+.client-logo-link:focus {
 	border-color:var(--maincolor);
 }
 
-.client-logo-link:hover .client-icons-svg {
+.client-logo-link:hover .client-icons-svg,
+.client-logo-link:focus .client-icons-svg {
 	fill:var(--maincolor);
 }
 
@@ -472,9 +479,12 @@ html {
 	line-height: 1.172;
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
-
-
+	
 }
+.contact-footer li {
+	margin-bottom: 9px;
+}
+
 .portfolio-category {
 	font-family: var(--mainfont);
 	font-weight: 500;
@@ -485,6 +495,7 @@ html {
 	text-decoration: none;
 	border: none;
 	padding: 6px 20px;
+	border-radius: 4px;
 
 }
 
@@ -501,14 +512,20 @@ html {
 	text-decoration: none;
 }
 
-.portfolio-card:hover {
+.portfolio-card:hover,
+.portfolio-card .portfolio-link:focus {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-name:hover,
+.portfolio-card .portfolio-link:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+/*.portfolio-name:hover,
 .portfolio-description:hover {
 	color:var(--maincolor);
-}
+}*/
 
 .current {
 	color:var(--maincolor);
